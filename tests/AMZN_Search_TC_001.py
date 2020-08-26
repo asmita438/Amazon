@@ -8,6 +8,5 @@ driver.implicitly_wait(10) #10 is in seconds
 driver.get(base_url)
 # test whether correct URL/ Web Site has been loaded or not
 assert "Amazon" in driver.title
-driver.fin
 # to close the browser
 driver.close()
