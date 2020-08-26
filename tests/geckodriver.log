@@ -61,3 +61,13 @@ console.error: (new Error("SessionFile is closed", "resource:///modules/sessions
 ###!!! [Parent][MessageChannel] Error: (msgtype=0x580006,name=PHttpBackgroundChannel::Msg___delete__) Channel error: cannot send/recv
 
 console.error: (new Error("SessionFile is closed", "resource:///modules/sessionstore/SessionFile.jsm", 433))
+1598467931043	geckodriver	INFO	Listening on 127.0.0.1:34275
+1598467931191	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileqtuc8p"
+1598467934892	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1598467937035	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1598467937035	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1598467937036	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1598467937036	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1598467954379	Marionette	INFO	Listening on port 45043
+1598467954550	Marionette	WARN	TLS certificate errors will be ignored for this session
+1598468037120	Marionette	INFO	Stopped listening on port 45043
