@@ -1,7 +1,7 @@
 import unittest
 
 class TestStringMethods(unittest.TestCase):
-
+    # tests should always have prefix "test"
     def test_upper(self):
         # assertEqual checks for an expected result
         self.assertEqual('foo'.upper(), 'FOO')
