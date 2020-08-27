@@ -3,7 +3,7 @@ from selenium.webdriver.common.keys import Keys
 # declare variable to store the URL to be visited
 base_url="https://www.amazon.in"
 # declare variable to store search term
-search_term="Aloever gel"
+search_term="Aloevera gel"
 driver=webdriver.Firefox(executable_path="/home/asmita/Desktop/Amazon/drivers/geckodriver")
 driver.maximize_window()
 driver.implicitly_wait(10) 
@@ -14,6 +14,7 @@ searchTextBox=driver.find_element_by_id("twotabsearchtextbox")
 searchTextBox.clear()
 # to enter the search term in the search textbox via send_keys() function
 searchTextBox.send_keys(search_term)
+# to press enter
 searchTextBox.send_keys(Keys.RETURN)
 assert f"Amazon.in:{search_term}" in driver.title
 # to verify if the search results page contains any results or no results were found.
